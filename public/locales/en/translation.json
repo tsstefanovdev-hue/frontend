@@ -1,0 +1,165 @@
+{
+    "navbar": {
+        "logo": "/logo_en.png",
+        "home": "Home",
+        "products": "Products",
+        "about": "About us",
+        "contacts": "Contacts"
+    },
+    "footer": {
+        "phone": {
+            "note": "Phone:",
+            "value": "+359-886-123-456"
+        },
+        "email": {
+            "note": "Email:",
+            "value1": "master",
+            "value2": "meatsbg"
+        },
+        "slogan": "A flavor for every palette",
+        "social": "Socials",
+        "social-links": {
+            "linkedin": "https://www.linkedin.com/company/profit-back-ltd/"
+        }
+    },
+    "language": {
+        "bg": {
+            "label": "Bulgarian",
+            "code": "bg"
+        },
+        "en": {
+            "label": "English",
+            "code": "en"
+        }
+    },
+    "home": {
+        "title": "Master Meats - An authentic taste in arms reach!",
+        "subtitle": "Bulgarian meat delicacies - theres a taste for everyone!",
+        "btnAbout": "Read More",
+        "btnProducts": "Our selection"
+    },
+    "coreValues": {
+        "title": "Our creed",
+        "values": {
+            "1": {
+                "title": "Quality",
+                "subtitle": "We are committed to providing you with the highest quality products. So we use only bulgarian meat from trusted sources",
+                "description": "Every cut we offer is carefully selected and crafted to ensure you receive nothing but the best."
+            },
+            "2": {
+                "title": "Taste",
+                "subtitle": "The taste but always be consistent, rich and authentic.",
+                "description": "Our flavors are authentic, rich, and consistent, leaving a lasting impression in every bite."
+            },
+            "3": {
+                "title": "Freshness",
+                "subtitle": "If it ain't fresh, it has no room on the table",
+                "description": "From farm to table, our products maintain optimal freshness and vibrant quality."
+            },
+            "4": {
+                "title": "Health",
+                "subtitle": "We prioritize the health of our customers and employees.",
+                "description": "We prioritize your wellbeing by using natural ingredients and traditional techniques."
+            }
+        }
+    },
+    "products": {
+        "title": "Our Selection",
+        "product": [
+            {
+                "title": "Elena Fillet Mix",
+                "description": "Fresh Bulgarian meat seasoned with red and black pepper, savory, and fenugreek. Dried for a minimum of 15 days for maximum tenderness.",
+                "price": "60 BGN/kg",
+                "btnBuy": "Buy",
+                "image": "/file1.jpeg",
+                "badge": "New"
+            },
+            {
+                "title": "Elena Fillet Classic",
+                "description": "Fresh Bulgarian meat seasoned with savory and fenugreek. Dried for a minimum of 15 days for maximum tenderness.",
+                "price": "50 BGN/kg",
+                "btnBuy": "Buy",
+                "image": "/file2.jpg",
+                "badge": "Most Popular"
+            },
+            {
+                "title": "Pastarma",
+                "description": "Fresh Bulgarian meat seasoned with red pepper (optionally smoked). Dried for a minimum of 15 days for maximum tenderness.",
+                "price": "50 BGN/kg",
+                "btnBuy": "Buy",
+                "image": "/file3.jpg",
+                "badge": ""
+            },
+            {
+                "title": "Spicy Pastarma",
+                "description": "Fresh Bulgarian meat seasoned with red pepper, hot chili, savory, and fenugreek. Dried for a minimum of 15 days for maximum tenderness.",
+                "price": "60 BGN/kg",
+                "btnBuy": "Buy",
+                "image": "/file4.png",
+                "badge": "Spicy"
+            }
+        ]
+    },
+    "about": {
+        "intro": {
+            "title": "About Us",
+            "subtitle": "Meat lovers. We appreciate true flavor!",
+            "paragraph": {
+                "1": "We are people who love tradition. People who believe that good food is not just about taste — it’s a memory, an emotion, a connection to something deeper.",
+                "2": "It all started with disappointment — yet another “mezze” that looked good but had no soul. And then we said to ourselves: enough. If we want something real, we’ll make it ourselves. From the heart, the way it used to be made. No compromises.",
+                "3": "For three years now, we’ve been making quality Bulgarian delicacies — no additives, no chemicals, no unnecessary talk. Just real meat, natural spices, and old Bulgarian craftsmanship. Our ancestors used to say: the meat must be Bulgarian, fresh, juicy. Not raised, but grazed. Not picked, but plucked.",
+                "4": "Our fillet is tender – it melts in your mouth and tempts the senses. Each of our products is made with care for taste and detail. We offer a variety of flavors for every taste and occasion: from classic, through spicy, to more exotic combinations for those who love to experiment.",
+                "5": "We are not a big factory. We are people who love what they do. And if you also like to pour yourself a drink and put a fine mezze next to it — then you’ve come to the right place."
+            }
+        }
+    },
+    "contacts": {
+        "title": "Contact us",
+        "text": {
+            "normal": "Contact us - and discover how much you've lost… ",
+            "bold": "without even knowing it."
+        },
+        "location": {
+            "note": "Location:",
+            "value": "Sofia, Bulgaria"
+        },
+        "phone": {
+            "note": "Phone:",
+            "value": "+359-886-123-456"
+        },
+        "email": {
+            "note": "Email:",
+            "value1": "master",
+            "value2": "meatsbg"
+        },
+        "form": {
+            "title": "Send us an inquiry",
+            "name": "Full Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message",
+            "btnSend": "Send"
+        }
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "questions": {
+            "1": {
+                "question": "How can I get in touch with your company?",
+                "answer": "You can reach us by phone or by email."
+            },
+            "2": {
+                "question": "Do you deliver?",
+                "answer": "Yes, we deliver to most of Bulgaria via Econt and Speedy."
+            },
+            "3": {
+                "question": "What kind of meat do you use?",
+                "answer": "Fresh Bulgarian meat, raised in Bulgarian farms."
+            },
+            "4": {
+                "question": "How should I store my meat?",
+                "answer": "It has a long shelf life in the refrigerator. At least half a year, but we seriously doubt you'll ressist the temptation."
+            }
+        }
+    }
+}
