@@ -42,10 +42,10 @@ const LanguageSelector = () => {
       <div className="hidden md:block">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="flex items-center gap-1 py-1 rounded-full text-secondary font-bold cursor-pointer hover:text-accent"
+          className="flex items-center gap-1 py-1 rounded-full text-secondary font-bold cursor-pointer text-lg lg:text-xl 2xl:text-2xl hover:text-accent"
         >
           <span>{languages.find((l) => l.code === language)?.label}</span>
-          <span className="ml-1 text-lg">▾</span>
+          <span className="ml-1">▾</span>
         </button>
 
         {isOpen && (
@@ -61,8 +61,8 @@ const LanguageSelector = () => {
                 key={lang.code}
                 whileHover={{ scale: 1.05, color: "#FBBF24" }}
                 onClick={() => handleChange(lang.code)}
-                className={`flex items-center gap-2 px-4 py-2 cursor-pointer ${
-                  language === lang.code ? "font-bold text-accent" : "text-secondary"
+                className={`flex items-center gap-2 px-4 py-2 cursor-pointer text-accent ${
+                  language === lang.code ? "font-bold text-xl" : ""
                 }`}
               >
                 <span>{lang.label}</span>
@@ -73,7 +73,7 @@ const LanguageSelector = () => {
       </div>
 
       {/* Mobile Language*/}
-      <div className="flex md:hidden items-center gap-4">
+      <div className="flex md:hidden items-center gap-1 lg:gap-4">
         {languages.map((lang, idx) => (
           <React.Fragment key={lang.code}>
             <button
